@@ -5,3 +5,20 @@
 # Look in the github README file for example output
 
 p "Enter a word:"
+#word = gets.chomp
+#a=word.split("")
+
+ #a.each do |c|
+  #n=a.count(c)
+
+  #puts c.capitalize.to_s + " appears " + n.to_s + " times."
+
+  word = gets.chomp.split("")
+
+ word.each do |c|
+  n=word.count(c)
+
+  puts c.capitalize.to_s + " appears " + n.to_s + " times."
+
+end
+
